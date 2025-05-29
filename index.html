@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FacilitaGov</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff; /* branco principal */
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .titulo-principal {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      text-align: center;
+      color: #004aad;
+    }
+
+    .circulos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 40px;
+      width: 100%;
+      justify-items: center;
+    }
+
+    .topico {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .circulo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: #004aad; /* azul para destaque */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .circulo img {
+      width: 80%;
+      height: 80%;
+      object-fit: contain;
+    }
+
+    .nome-topico {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #004aad;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .circulos {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="titulo-principal">FacilitaGov - Acesso Rápido e Simples</h1>
+    <div class="circulos">
+      <div class="topico">
+        <div class="circulo"><img src="img/documentos.png" alt="Documentos" /></div>
+        <p class="nome-topico">Documentos Pessoais</p>
+      </div>
+      <div class="topico">
+        <div class="circulo"><img src="img/impostos.png" alt="Impostos" /></div>
+        <p class="nome-topico">Impostos e Tributos</p>
+      </div>
+      <div class="topico">
+        <div class="circulo"><img src="img/saude.png" alt="Saúde" /></div>
+        <p class="nome-topico">Saúde</p>
+      </div>
+      <div class="topico">
+        <div class="circulo"><img src="img/educacao.png" alt="Educação" /></div>
+        <p class="nome-topico">Educação</p>
+      </div>
+      <div class="topico">
+        <div class="circulo"><img src="img/trabalho.png" alt="Trabalho" /></div>
+        <p class="nome-topico">Trabalho e Emprego</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
