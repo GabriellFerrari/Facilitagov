@@ -188,6 +188,7 @@
       .circulo {
         width: 120px;
         height: 120px;
+        margin:0px;
         .carrossel {
     display: none;
       }
