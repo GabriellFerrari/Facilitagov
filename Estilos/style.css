@@ -161,12 +161,14 @@
 }
 
 .footer h5 {
-  color: #004aad;
+  color: #004bad;
   font-weight: bold;
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  
+  text-decoration: underline !important ;
+  
 }
 .circulo > p {
   font-size: 1.3em;
@@ -216,6 +218,15 @@
   background-size: cover;
   background-position: center;
 }
+
+h3{
+  color: #0003aaa6;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+
 
 
     @media (max-width: 768px) {
