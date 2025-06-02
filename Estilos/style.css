@@ -171,24 +171,46 @@
 .circulo > p{
   font-size: 1.3em;
   font-weight: bolder;
-  color: #00307e88;
+  color: #0003aa;
+  
+  
   
 }
 
+  .circulos a {
+    text-decoration: none;
+    color: #000000;
+  }
+
 #circulofoto1{
-  background:#00307e3d ;
+  background-image: url(../Imagens/ID\ Card-bro.png); 
+  background-size: cover;
+  background-position: center;
+  
 }
 #circulofoto2{
-  background:#00307e3d ;
+  
+  background-image: url(../Imagens/meuveiculo.png); 
+  background-size: cover;
+  background-position: center;
 }
 #circulofoto3{
-  background:#00307e3d ;
+  
+  background-image: url(../Imagens/minhaaposentadoria.png); 
+  background-size: cover;
+  background-position: center;
 }
 #circulofoto4{
-  background:#00307e3d ;
+  
+  background-image: url(../Imagens/meunegocio.png); 
+  background-size: cover;
+  background-position: center;
 }
 #circulofoto5{
-  background:#00307e3d ;
+  
+  background-image: url(../Imagens/minhasaude.png); 
+  background-size: cover;
+  background-position: center;
 }
 
 
